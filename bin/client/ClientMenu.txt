@@ -1,0 +1,5 @@
+-=-		Welcome to AutoClient. Please select an option:		-=-
+(1) - Upload a properties file		(3) - Get a list of available Autos	
+(2) - Upload an Auto input file		(4) - Configure an Auto
+
+(99) - Quit AutoClient

@@ -1,0 +1,54 @@
+|*
+Test text file by:
+Joseph Burger
+
+Adding optionsets is as easy as inserting a line,
+and options for that option set come thereafter.
+This text allows comments, optional "$" and blank lines
+
+TESTING:
+To easily test for broken input, simply place a || comment
+in the middle of a sentence to truncate that sentence and see
+exception handling in action. It's easier than deleting and re-writing!
+*|
+
+auto "Ford Lamborghini Pastaroni Racerbox"
+
+optionset "color"
+option "red" $0
+option "blue" 0
+option "green" 0
+option "turqoise" 0 || My personal favorite
+option "silver" 0.00
+option "white" $0
+option "black" 0
+
+Optionset "Airbags"
+option "yes" 0
+option "no" $-300
+option "filled with sand" -300 || What a joke!
+option set "Wheels"
+option "gangsta rimz" 400
+option "normally nominal" 0
+option "ghetto ridaz" 250
+
+optionSet "Upholstery"
+option "standard" 0
+option "luxury" $1000.0000000 || Those extra 0's cost extra
+option "racer" 700 || For those younger customers
+optionset "Engine"
+option "big" $2000
+option "small" -1000 ||If fuel economy is your thing
+option "normal" 0
+
+|* Let's put in one more option set! *|
+Option Set "Moonroof"
+option "yes" 200
+option "no" 0
+
+|*
+These comments are totally original, I promise
+Definitely not copying anything, no sir-e!
+Just don't lean the pipes over, then we'd have a problem
+*|
+

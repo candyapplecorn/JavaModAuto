@@ -1,0 +1,36 @@
+|*
+Joseph Burger
+2015 - 4 - 14
+*|
+
+auto "Focus Wagon ZTW"
+
+optionset "color"
+option "Fort Knox Gold Clearcoat Metallic" $0.00
+option "Liquid Grey Clearcoat Metallic" $0.00
+option "Infra-Red Clearcoat" $0.00
+option "Grabber Green Clearcoat Metallic" $0.00
+option "Sangria Red Clearcoat Metallic" $0.00 || Blood Red?
+option "French Blue Clearcoat Metallic" $0.00
+option "Twilight Blue Clearcoat Metallic" $0.00
+option "CD Silver Clearcoat Metallic" $0.00
+option "Pitch Black Clearcoat" $0.00
+option "Cloud 9 White Clearcoat" $0.00
+
+optionset "Transmission"
+option "manual" 0.00
+option "automatic" 0.00
+
+|* There should be a "none" option for the adventurous customer *|
+optionset "Brakes/Traction Control"
+option "standard" 0.00
+option "ABS" $400
+option "ABS with Advance Trac" $1625 || Oooh, advanced Trac
+
+optionset "Side Impact Air Bags"
+option "none" 0
+option "yes" 350
+
+optionset "Power Moonroof"
+option "none" 0
+option "yes" $595
